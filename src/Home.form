@@ -27,7 +27,7 @@
               <background color="-12369085"/>
               <font name="Segoe Print" size="48" style="1"/>
               <foreground color="-1579033"/>
-              <icon value="home-button.png"/>
+              <icon value="img/home-button.png"/>
               <text value="Home"/>
             </properties>
           </component>
@@ -107,7 +107,7 @@
               <background color="-11184811"/>
               <font name="Segoe Print" size="18" style="1"/>
               <foreground color="-16777216"/>
-              <icon value="exit.png"/>
+              <icon value="img/exit.png"/>
               <text value=""/>
             </properties>
           </component>

@@ -19,7 +19,7 @@ public class Home extends JFrame{
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setVisible(true);
         setDefaultCloseOperation(this.DISPOSE_ON_CLOSE);
-        setIconImage(Toolkit.getDefaultToolkit().getImage(getClass().getResource("bank.png")));
+        setIconImage(Toolkit.getDefaultToolkit().getImage(getClass().getResource("img/bank.png")));
         studentButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 close();

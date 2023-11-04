@@ -47,7 +47,7 @@ public class Student extends JFrame{
         setContentPane(StudentPanel);
         setBounds(120, 80, 1300, 700);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        setIconImage(Toolkit.getDefaultToolkit().getImage(getClass().getResource("bank.png")));
+        setIconImage(Toolkit.getDefaultToolkit().getImage(getClass().getResource("img/bank.png")));
         sectionbox();
         createTable();
         updateDatabase();

@@ -28,7 +28,7 @@
               <font name="Segoe Print" size="36" style="1"/>
               <foreground color="-1579033"/>
               <horizontalTextPosition value="11"/>
-              <icon value="livre.png"/>
+              <icon value="img/livre.png"/>
               <text value=" Subjects"/>
               <verticalAlignment value="0"/>
               <verticalTextPosition value="0"/>
@@ -42,7 +42,7 @@
               <background color="-11184811"/>
               <font name="Segoe Print" size="18" style="1"/>
               <foreground color="-16777216"/>
-              <icon value="undo.png"/>
+              <icon value="img/undo.png"/>
               <text value=""/>
             </properties>
           </component>

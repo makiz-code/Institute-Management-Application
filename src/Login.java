@@ -22,7 +22,7 @@ public class Login extends JFrame{
         setContentPane(RegisterPanel);
         setBounds(550, 240, 420, 350);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        setIconImage(Toolkit.getDefaultToolkit().getImage(getClass().getResource("bank.png")));
+        setIconImage(Toolkit.getDefaultToolkit().getImage(getClass().getResource("img/bank.png")));
         setVisible(true);
         setDefaultCloseOperation(this.DISPOSE_ON_CLOSE);
         ConnectButton.addActionListener(new ActionListener() {

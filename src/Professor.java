@@ -33,7 +33,7 @@ public class Professor extends JFrame{
         setContentPane(ProfessorPanel);
         setBounds(200, 80, 1100, 700);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        setIconImage(Toolkit.getDefaultToolkit().getImage(getClass().getResource("bank.png")));
+        setIconImage(Toolkit.getDefaultToolkit().getImage(getClass().getResource("img/bank.png")));
         createTable();
         updateDatabase();
         subjectbox();

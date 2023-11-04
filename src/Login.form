@@ -21,7 +21,7 @@
           <background color="-12369085"/>
           <font name="Segoe Print" size="48" style="1"/>
           <foreground color="-1579033"/>
-          <icon value="utilisateur.png"/>
+          <icon value="img/utilisateur.png"/>
           <text value="Login"/>
         </properties>
       </component>

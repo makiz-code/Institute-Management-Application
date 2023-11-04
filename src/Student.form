@@ -51,7 +51,7 @@
               <background color="-12369085"/>
               <font name="Segoe Print" size="36" style="1"/>
               <foreground color="-1579033"/>
-              <icon value="graduated.png"/>
+              <icon value="img/graduated.png"/>
               <text value=" Students"/>
             </properties>
           </component>
@@ -335,7 +335,7 @@
               <background color="-11184811"/>
               <font name="Segoe Print" size="18" style="1"/>
               <foreground color="-16777216"/>
-              <icon value="undo.png"/>
+              <icon value="img/undo.png"/>
               <text value=""/>
             </properties>
           </component>
