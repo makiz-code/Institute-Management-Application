@@ -1,0 +1,50 @@
+create database projet;
+use projet;
+create table connection(
+user_name varchar(30),
+password varchar(30)
+);
+insert into connection values ('makiz','7102');
+commit;
+create table section(
+section_id Int primary key,
+name varchar(30) not null
+);
+create table subject(
+subject_id Int primary key,
+name varchar(30) not null,
+coef float not null
+);
+create table student(
+student_id Int primary key,
+first_name varchar(30) not null,
+last_name varchar(30) not null,
+section_id Int,
+constraint fk foreign key (section_id) references section (section_id) on delete cascade
+);
+create table professor(
+professor_id Int primary key,
+first_name varchar(30) not null,
+last_name varchar(30) not null
+);
+create table note(
+student_id Int,
+subject_id Int,
+ds_note float not null,
+exam_note float not null,
+mean float not null,
+constraint fk1 foreign key (student_id) references student (student_id) on delete cascade,
+constraint fk2 foreign key (subject_id) references subject (subject_id) on delete cascade
+);
+create table sec_sub(
+section_id Int,
+subject_id Int,
+constraint fk3 foreign key (section_id) references section (section_id) on delete cascade,
+constraint fk4 foreign key (subject_id) references subject (subject_id) on delete cascade
+);
+create table prof_sub(
+professor_id Int,
+subject_id Int,
+constraint fk5 foreign key (professor_id) references professor (professor_id) on delete cascade,
+constraint fk6 foreign key (subject_id) references subject (subject_id) on delete cascade
+);

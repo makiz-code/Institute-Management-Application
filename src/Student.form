@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Student">
+  <grid id="27dc6" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="17" y="17" width="1367" height="630"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="70720" binding="StudentPanel" layout-manager="GridLayoutManager" row-count="14" column-count="17" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="20" left="20" bottom="20" right="20"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12369085"/>
+          <foreground color="-1579033"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="7cd95" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-12369085"/>
+              <font name="Segoe Print" size="18" style="1"/>
+              <foreground color="-1579033"/>
+              <text value="Student-ID"/>
+            </properties>
+          </component>
+          <component id="19cec" class="javax.swing.JTextField" binding="txtStudentID">
+            <constraints>
+              <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-3092272"/>
+              <font name="Segoe Print" size="18" style="1"/>
+              <foreground color="-16777216"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="5d61e" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="17" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-12369085"/>
+              <font name="Segoe Print" size="36" style="1"/>
+              <foreground color="-1579033"/>
+              <icon value="graduated.png"/>
+              <text value=" Students"/>
+            </properties>
+          </component>
+          <component id="28d6f" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-12369085"/>
+              <font name="Segoe Print" size="18" style="1"/>
+              <foreground color="-1579033"/>
+              <text value="First Name"/>
+            </properties>
+          </component>
+          <component id="7279b" class="javax.swing.JTextField" binding="txtFirstName">
+            <constraints>
+              <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-3092272"/>
+              <font name="Segoe Print" size="18" style="1"/>
+              <foreground color="-16777216"/>
+            </properties>
+          </component>
+          <component id="b1aed" class="javax.swing.JToolBar$Separator">
+            <constraints>
+              <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="f57db" class="javax.swing.JTextField" binding="txtLastName">
+            <constraints>
+              <grid row="4" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="137" height="42"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-3092272"/>
+              <font name="Segoe Print" size="18" style="1"/>
+              <foreground color="-16777216"/>
+            </properties>
+          </component>
+          <component id="76d25" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="4" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-12369085"/>
+              <font name="Segoe Print" size="18" style="1"/>
+              <foreground color="-1579033"/>
+              <text value="Last Name"/>
+            </properties>
+          </component>
+          <component id="124b5" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-12369085"/>
+              <font name="Segoe Print" size="18" style="1"/>
+              <foreground color="-1579033"/>
+              <text value="Section"/>
+            </properties>
+          </component>
+          <component id="315b4" class="javax.swing.JComboBox" binding="SectionBox">
+            <constraints>
+              <grid row="2" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="137" height="42"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-3092272"/>
+              <font name="Segoe Print" size="18" style="1"/>
+              <foreground color="-16777216"/>
+              <maximumRowCount value="10"/>
+            </properties>
+          </component>
+          <component id="4a9" class="javax.swing.JButton" binding="insertButton" default-binding="true">
+            <constraints>
+              <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-12953489"/>
+              <font name="Segoe Print" size="18" style="1"/>
+              <foreground color="-1579033"/>
+              <text value="Insert"/>
+            </properties>
+          </component>
+          <scrollpane id="b204f">
+            <constraints>
+              <grid row="6" column="2" row-span="6" col-span="5" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-12369085"/>
+              <font name="Segoe Print" size="18" style="1"/>
+              <foreground color="-1579033"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="2a70d" class="javax.swing.JTable" binding="StudentTable">
+                <constraints/>
+                <properties>
+                  <background color="-3092272"/>
+                  <font name="Segoe Print" size="12" style="0"/>
+                  <foreground color="-16777216"/>
+                </properties>
+              </component>
+            </children>
+          </scrollpane>
+          <component id="c995b" class="javax.swing.JToolBar$Separator">
+            <constraints>
+              <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="285c" class="javax.swing.JToolBar$Separator">
+            <constraints>
+              <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="5ada5" class="javax.swing.JToolBar$Separator">
+            <constraints>
+              <grid row="13" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="137" height="10"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="5af2d" class="javax.swing.JButton" binding="updateButton" default-binding="true">
+            <constraints>
+              <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-12953489"/>
+              <font name="Segoe Print" size="18" style="1"/>
+              <foreground color="-1579033"/>
+              <horizontalTextPosition value="0"/>
+              <text value="Update"/>
+            </properties>
+          </component>
+          <component id="1d15b" class="javax.swing.JButton" binding="deleteButton" default-binding="true">
+            <constraints>
+              <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-12953489"/>
+              <font name="Segoe Print" size="18" style="1"/>
+              <foreground color="-1579033"/>
+              <text value="Delete"/>
+            </properties>
+          </component>
+          <component id="e4c72" class="javax.swing.JButton" binding="emptyButton" default-binding="true">
+            <constraints>
+              <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-12953489"/>
+              <font name="Segoe Print" size="18" style="1"/>
+              <foreground color="-1579033"/>
+              <text value="Empty"/>
+            </properties>
+          </component>
+          <component id="7c376" class="javax.swing.JButton" binding="resetButton" default-binding="true">
+            <constraints>
+              <grid row="11" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-12953489"/>
+              <font name="Segoe Print" size="18" style="1"/>
+              <foreground color="-1579033"/>
+              <text value="Reset"/>
+            </properties>
+          </component>
+          <component id="512fa" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="10" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-12369085"/>
+              <font name="Segoe Print" size="18" style="1"/>
+              <foreground color="-1579033"/>
+              <text value="Subject"/>
+            </properties>
+          </component>
+          <component id="c153e" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="4" column="10" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-12369085"/>
+              <font name="Segoe Print" size="18" style="1"/>
+              <foreground color="-1579033"/>
+              <text value="DS_note"/>
+            </properties>
+          </component>
+          <component id="f4679" class="javax.swing.JComboBox" binding="SubjectBox">
+            <constraints>
+              <grid row="2" column="12" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-3092272"/>
+              <editable value="false"/>
+              <font name="Segoe Print" size="18" style="1"/>
+              <foreground color="-16777216"/>
+              <maximumRowCount value="10"/>
+            </properties>
+          </component>
+          <component id="3589d" class="javax.swing.JTextField" binding="txtDSNote">
+            <constraints>
+              <grid row="4" column="12" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-3092272"/>
+              <font name="Segoe Print" size="18" style="1"/>
+              <foreground color="-16777216"/>
+            </properties>
+          </component>
+          <component id="8071b" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="4" column="14" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-12369085"/>
+              <font name="Segoe Print" size="18" style="1"/>
+              <foreground color="-1579033"/>
+              <text value="Exam_note"/>
+            </properties>
+          </component>
+          <component id="e6376" class="javax.swing.JTextField" binding="txtExamNote">
+            <constraints>
+              <grid row="4" column="16" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-3092272"/>
+              <font name="Segoe Print" size="18" style="1"/>
+              <foreground color="-16777216"/>
+            </properties>
+          </component>
+          <component id="4cf2f" class="javax.swing.JToolBar$Separator">
+            <constraints>
+              <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="d3745" class="javax.swing.JToolBar$Separator">
+            <constraints>
+              <grid row="2" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="9e419" class="javax.swing.JToolBar$Separator">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="1e5d9" class="javax.swing.JToolBar$Separator">
+            <constraints>
+              <grid row="2" column="11" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="a3d69" class="javax.swing.JToolBar$Separator">
+            <constraints>
+              <grid row="4" column="15" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="88c24" class="javax.swing.JButton" binding="UndoButton">
+            <constraints>
+              <grid row="13" column="16" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="6" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-11184811"/>
+              <font name="Segoe Print" size="18" style="1"/>
+              <foreground color="-16777216"/>
+              <icon value="undo.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="5e09d" class="javax.swing.JToolBar$Separator">
+            <constraints>
+              <grid row="12" column="14" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+          </component>
+          <scrollpane id="55d1e">
+            <constraints>
+              <grid row="6" column="12" row-span="4" col-span="5" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="4a16a" class="javax.swing.JTable" binding="MeanTable">
+                <constraints/>
+                <properties>
+                  <background color="-3092272"/>
+                  <font name="Segoe Print" size="12" style="0"/>
+                  <foreground color="-16777216"/>
+                </properties>
+              </component>
+            </children>
+          </scrollpane>
+          <component id="d5cce" class="javax.swing.JButton" binding="addButton" default-binding="true">
+            <constraints>
+              <grid row="6" column="10" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-12953489"/>
+              <font name="Segoe Print" size="18" style="1"/>
+              <foreground color="-1579033"/>
+              <text value="Add"/>
+            </properties>
+          </component>
+          <component id="1eded" class="javax.swing.JButton" binding="modifyButton" default-binding="true">
+            <constraints>
+              <grid row="7" column="10" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-12953489"/>
+              <font name="Segoe Print" size="18" style="1"/>
+              <foreground color="-1579033"/>
+              <text value="Modify"/>
+            </properties>
+          </component>
+          <component id="f5e79" class="javax.swing.JButton" binding="removeButton" default-binding="true">
+            <constraints>
+              <grid row="8" column="10" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-12953489"/>
+              <font name="Segoe Print" size="18" style="1"/>
+              <foreground color="-1579033"/>
+              <text value="Remove"/>
+            </properties>
+          </component>
+          <component id="ad49" class="javax.swing.JButton" binding="resetButton1" default-binding="true">
+            <constraints>
+              <grid row="9" column="10" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-12953489"/>
+              <font name="Segoe Print" size="18" style="1"/>
+              <foreground color="-1579033"/>
+              <text value="Reset"/>
+            </properties>
+          </component>
+          <component id="a985f" class="javax.swing.JLabel" binding="Moy">
+            <constraints>
+              <grid row="11" column="16" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-12369085"/>
+              <font name="Segoe Print" size="18" style="1"/>
+              <foreground color="-3092272"/>
+              <text value="null"/>
+            </properties>
+          </component>
+          <component id="81cbd" class="javax.swing.JToolBar$Separator">
+            <constraints>
+              <grid row="1" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="9a226" class="javax.swing.JToolBar$Separator">
+            <constraints>
+              <grid row="1" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="f6011" class="javax.swing.JToolBar$Separator">
+            <constraints>
+              <grid row="1" column="9" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="5adf7" class="javax.swing.JToolBar$Separator">
+            <constraints>
+              <grid row="4" column="13" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="2ea06" class="javax.swing.JToolBar$Separator">
+            <constraints>
+              <grid row="10" column="16" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="10d66" class="javax.swing.JLabel" binding="meanLabel" default-binding="true">
+            <constraints>
+              <grid row="11" column="12" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-12369085"/>
+              <font name="Segoe Print" size="18" style="1"/>
+              <foreground color="-3092272"/>
+              <text value="Mean"/>
+            </properties>
+          </component>
+          <component id="14489" class="javax.swing.JLabel" binding="meanLabel1" default-binding="true">
+            <constraints>
+              <grid row="11" column="14" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-12369085"/>
+              <font name="Segoe Print" size="18" style="1"/>
+              <foreground color="-3092272"/>
+              <text value=":"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <vspacer id="dcbf9">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+    </children>
+  </grid>
+</form>
