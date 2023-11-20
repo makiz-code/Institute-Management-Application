@@ -4,15 +4,13 @@ import java.awt.event.*;
 import java.sql.*;
 import java.util.logging.Level;
 
-import static java.lang.Thread.sleep;
-
 public class Login extends JFrame{
     private JTextField txtUserName;
     private JPasswordField txtPassword;
     private JPanel RegisterPanel;
     private JButton ConnectButton;
     private JButton cancelButton;
-    private static final String url = "jdbc:mysql://localhost:3306/projet";
+    private static final String url = "jdbc:mysql://localhost:3306/UTM";
     private static final String user = "root";
     private static final String passwd = "7102";
     private int i=0;
@@ -42,17 +40,18 @@ public class Login extends JFrame{
                                  "Error", JOptionPane.ERROR_MESSAGE);
                         }
                         else {
-                            ConnectButton.setEnabled(false);
                             JFrame frame = new JFrame();
                             JOptionPane.showMessageDialog(frame, "Access Denied for " + count/1000 + " seconds",
                                  "Error", JOptionPane.ERROR_MESSAGE);
-                            try {
-                                sleep(count);
-                            } catch (InterruptedException ex) {
-                                throw new RuntimeException(ex);
-                            }
-                            ConnectButton.setEnabled(true);
-                            count*=2;
+                            ConnectButton.setEnabled(false);
+                            Timer timer = new Timer(count, new ActionListener() {
+                                public void actionPerformed(ActionEvent e) {
+                                    ConnectButton.setEnabled(true);
+                                    ((Timer) e.getSource()).stop();
+                                    count*=2;
+                                }
+                            });
+                            timer.start();
                         }
                     }else{
                         JFrame frame = new JFrame("Connected");

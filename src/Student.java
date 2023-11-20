@@ -39,7 +39,7 @@ public class Student extends JFrame{
     private JButton resetButton1;
     private JLabel meanLabel;
     private JLabel meanLabel1;
-    private static final String url = "jdbc:mysql://localhost:3306/projet";
+    private static final String url = "jdbc:mysql://localhost:3306/UTM";
     private static final String user = "root";
     private static final String passwd = "7102";
     public Student() {

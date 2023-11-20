@@ -32,7 +32,7 @@ public class Section extends JFrame{
     private JButton removeButton;
     private JTable SubjectsTable;
     private JTable StudentsTable;
-    private static final String url = "jdbc:mysql://localhost:3306/projet";
+    private static final String url = "jdbc:mysql://localhost:3306/UTM";
     private static final String user = "root";
     private static final String passwd = "7102";
     public Section() {

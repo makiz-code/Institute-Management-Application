@@ -1,5 +1,5 @@
-create database projet;
-use projet;
+create database UTM;
+use UTM;
 create table connection(
 user_name varchar(30),
 password varchar(30)

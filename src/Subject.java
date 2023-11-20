@@ -36,7 +36,7 @@ public class Subject extends JFrame{
     private JComboBox <String> CoefBox;
     private JTable SectionsTable;
     private JTable ProfessorsTable;
-    private static final String url = "jdbc:mysql://localhost:3306/projet";
+    private static final String url = "jdbc:mysql://localhost:3306/UTM";
     private static final String user = "root";
     private static final String passwd = "7102";
     public Subject() {
